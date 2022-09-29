@@ -2,7 +2,7 @@ const Singleton = <T>(element: T) => [element];
 
 const Null = <T>(elements: T[]) => elements.length === 0;
 
-const Snoc = <T1, T2>(elements: T1[], element: T2) => [...elements, element];
+const Snoc = <T>(elements: T[], element: T) => [...elements, element];
 
 const Length = <T>(elements: T[]) => elements.length;
 
